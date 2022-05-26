@@ -1,6 +1,6 @@
 const data = [
   {
-    question: "What does CSS stand for?",
+    question: "Как расшифровывается CSS?",
     incorrectAnswers: [
       "Computer Style Sheets",
       "Creative Style Sheets",
@@ -11,26 +11,26 @@ const data = [
 
   {
     question:
-      "Where in an HTML document is the correct place to refer to an external style sheet?",
+      "Где в HTML-документе правильное место, для расположения CSS файла?",
     incorrectAnswers: [
-      "In the <body> section",
-      "At the end of the document",
-      "You can't refer to an external style sheet",
+      "В разделе <body>",
+      "В конце документа",
+      "Вы не можете размещать CSS в HTML",
     ],
-    correctAnswer: "In the <head> section",
+    correctAnswer: "В <head> документа",
   },
   {
-    question: "Which HTML tag is used to define an internal style sheet?",
+    question: "Какой тег используют для подключения CSS?",
     incorrectAnswers: ["<script>", "<headStyle>", "<css>"],
     correctAnswer: "<style>",
   },
   {
-    question: "Which HTML attribute is used to define inline styles?",
+    question: "Какой HTML атрибут используется для встроенных стилей?",
     incorrectAnswers: ["class", "font", "styles"],
     correctAnswer: "style",
   },
   {
-    question: "Which is the correct CSS syntax?",
+    question: "Какой синтаксис верный?",
     incorrectAnswers: [
       "{body:color=black;}",
       "{body;color:black;}",
@@ -39,21 +39,21 @@ const data = [
     correctAnswer: "body {color: black;}",
   },
   {
-    question: "How do you insert a comment in a CSS file?",
+    question: "Как закоментировать код в CSS?",
     incorrectAnswers: [
-      "' this is a comment",
-      "// this is a comment",
-      "// this is a comment //",
+      "' это комментарий",
+      "// это комментарий",
+      "// это комментарий //",
     ],
-    correctAnswer: "/* this is a comment */",
+    correctAnswer: "/* это комментарий */",
   },
   {
-    question: "Which property is used to change the background color?",
+    question: "Какое свойство используется для изменения цвета фона?",
     incorrectAnswers: ["color", "bgcolor", "bgColor"],
     correctAnswer: "background-color",
   },
   {
-    question: "How do you add a background color for all <h1> elements?",
+    question: "Как добавить цвет фона всем тегам <h1> одновременно?",
     incorrectAnswers: [
       "all.h1 {background-color:#FFFFFF;}",
       "h1.setAll {background-color:#FFFFFF;}",
